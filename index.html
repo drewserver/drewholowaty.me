@@ -4,10 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>drewholowaty.me</title>
+    <script src="./components/navbar.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/main.css">
+    <style>
+      .body {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: start;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        padding: 0 0 0 0;
+      }
+
+      .body__title {
+        font-family: "Times-New-Roman";
+        margin: 80px 0 40px 100px;
+        width: fit-content;
+        font-size: 50px;
+      }
+
+      .navbar {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 300px;
+        justify-content: space-between;
+        margin: 0 0 0 100px;
+        padding: 0 0 0 40px;
+      }
+
+      .body__large-line {
+        width: 75%;
+        margin: 10px 0 40px 100px;
+        color: black;
+        border: 1px solid;
+      }
+
+      .main-content {
+        width: 100vw;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+      }
+
+      .body_intro-text {
+        font-family: "Times-New-Roman";
+        font-size: 18px;
+        line-height: 22px;
+        width: 50%;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <p>This is a simple HTML page.</p>
-    <p>Yes</p>
+  <body class="body">
+    <h1 class="body__title">DREW HOLOWATY</h1>
+    <div class="navbar">
+      <a href="./index.html">Home</a>
+      <a href="./pages/articles/index.html">Articles</a>
+      <a href="./pages/contact.html">Contact</a>
+    </div>
+    <hr class="body__large-line" />
+    <div class="main-content">
+      <p class="body_intro-text">"These bare bones will one day come to life, I tell you! Each day will pass, and I will accumulate more meat on my frame, more color on my skin, and more prowess in my movement. Until then, I will whittle away the time of the day, solemnly focused on celebrating beauty."</p>
+
+      <p class="body_intro-text">I am a software developer based in Columbus, Ohio who specializes in web application development. From start-ups, to slow moving bureaucratic organizations, I have delivered tailored solutions that have saved my clients time and money. Above all else, I am focused on creating the highest quality of software possible through emphasizing single point of control, and minimizing dependency use in my work. </p>
+
+    </div>
   </body>
 </html>

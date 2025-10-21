@@ -1,0 +1,32 @@
+body {
+  background-color: #fffef8;
+}
+
+@font-face {
+  font-family: "Times-New-Roman";
+  src: url("./fonts/Times-New-Roman.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Times-New-Roman";
+  src: url("./fonts/Times-New-Roman-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Times-New-Roman";
+  src: url("./fonts/Times-New-Roman-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Times-New-Roman";
+  src: url("./fonts/Times-New-Roman-Bold-Italic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
